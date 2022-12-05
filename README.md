@@ -24,4 +24,4 @@ curl -XGET http://localhost:5001/chat\?q\=i%20am%20having%20an%20exam%20tomorrow
 
 Note: the server.py code uses a sleep time for 15 seconds. So the content that can be processed by the chatGPT in 15 seconds can be seen in the terminal. Response message till 15 minutes will be recorded.
 
-Although you can increase/derease the sleep time on line number 40 of server.py code.
+Although you can increase/decrease the sleep time on line number 40 of server.py code.
