@@ -22,6 +22,6 @@ curl -XGET http://localhost:5001/chat\?q\=i%20am%20having%20an%20exam%20tomorrow
 <h4>The result should be like this:</h4>
 <img width="1089" alt="chatgpt-ss" src="https://user-images.githubusercontent.com/72748253/205528340-aafc2d07-2928-4ead-9d45-bae47ab75883.png">
 
-Note: the server.py code uses a sleep time for 15 seconds. So the content that can be processed by the chatGPT in 15 seconds can be seen in the terminal. Response message till 15 minutes will be recorded.
+Note: the server.py code uses a sleep time for 15 seconds. So the content that can be processed by the chatGPT in 15 seconds can be seen in the terminal. Response message till 15 seconds will be recorded.
 
 Although you can increase/decrease the sleep time on line number 40 of server.py code.
